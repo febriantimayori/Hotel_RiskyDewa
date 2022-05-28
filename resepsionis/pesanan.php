@@ -145,7 +145,6 @@ scratch. This page gets rid of all links and provides the needed markup only.
                             <input type="hidden" name="id_pesanan" value="<?php echo $d['id_pesanan']; ?>">
                             <input type="hidden" name="status" value="2">
                             <button class="btn btn-sm btn-success">Konfirmasi</button>
-                            
                           <a href="checkout.php?id_pesanan=<?php echo $d['id_pesanan'];?>" class="btn btn-sm btn-warning">Check out</a>
                           </form>
                         </td>
